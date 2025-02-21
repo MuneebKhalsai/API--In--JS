@@ -1,5 +1,5 @@
 body {
-       padding: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-image: url("https://img.freepik.com/free-photo/computer-mouse-paper-bag-blue-background-top-view_169016-43756.jpg?ga=GA1.1.517108467.1695331913&semt=ais_hybrid");
@@ -11,7 +11,7 @@ body {
 .card {
     
 background: #fff;
-height: 400px;
+height: 420px;
 width: 250px;
 padding: 10px;
 margin: 10px;
@@ -51,7 +51,7 @@ button:hover{
 }
 h1{
     border: 1px solid black;
-    width: 200px;
+    width: 270px;
     border-radius: 3px;
     background-color: #fff;
 }
