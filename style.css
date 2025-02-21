@@ -1,14 +1,5 @@
-/* body{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    background-image: url("https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww");
-    object-fit: cover;
-    border-image-repeat: no-repeat;
-    
-} */
 body {
-    padding: 0;
+       padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-image: url("https://img.freepik.com/free-photo/computer-mouse-paper-bag-blue-background-top-view_169016-43756.jpg?ga=GA1.1.517108467.1695331913&semt=ais_hybrid");
@@ -20,14 +11,13 @@ body {
 .card {
     
 background: #fff;
-height: 350px;
+height: 400px;
 width: 250px;
 padding: 10px;
 margin: 10px;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-between;
 border-radius: 15px;
 box-shadow: 0px 4px 8px rgba(235, 239, 240, 0.1);
 transition: transform 0.3s ease-in-out;
@@ -48,4 +38,23 @@ flex-wrap: wrap;
 justify-content: center;
 gap: 99px;
 margin-top: 60px;
+}
+button {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: lightgray;
+    cursor: pointer;
+    margin-top: auto;
+}
+button:hover{
+    background-color:gray;
+    color: #fff;
+}
+h1{
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 3px;
+    background-color: #fff;
 }
