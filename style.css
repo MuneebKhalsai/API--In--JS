@@ -28,9 +28,6 @@ box-shadow:  5px 5px 5px 5px   #000000;
 .card:hover{
     transform: scale(1.1);
 }
-
-
-
 .container{
 display: flex;
 flex-direction: row;
